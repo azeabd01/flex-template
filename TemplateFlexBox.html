@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,65 +8,70 @@
 </head>
 <body>
     <nav>
-
-       <div class="logo">LOGO</div> 
+       <img src="logo.avif" alt="" width="100px" height="100">
+       
+        <div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Live</li>
+                <li>Contact</li>
+            </ul>
+        </div>
         
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Live</li>
-            <li>Contact</li>
-        </ul>
     </nav>
 
-   <main>
+   <main id="container">
 
-    <section id="">
-        <div class="">
-            <h3></h3>
-            <button>Détail</button>
-        </div>
-        <div>
-            <h3></h3>
-            <button>Détail</button>
-        </div>
-        <div>
-            <h3></h3>
-            <button>Détail</button>
-        </div>
-        <div>
-            <h3></h3>
+        <div class="card">
+            <img src="image.jpeg" alt="">
+            <h3>Lorem ipsum dolor sit amet.</h3>
             <button>Détail</button>
         </div>
 
-    </section>
+        <div class="card">
+            <img src="image.jpeg" alt="">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <button>Détail</button>
+        </div>
 
-       
+        <div class="card">
+            <img src="image.jpeg" alt="">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <button>Détail</button>
+        </div>
+
+        <div class="card">
+            <img src="image.jpeg" alt="">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <button>Détail</button>
+        </div>       
           
     </main>
 
-    <footer>
-
-        <div>
+    <footer id="contact">
+        <div class="contact">
             <h4>Contact</h4>
             <ul>
-                <li>Numero</li>
+                <li>Telephone</li>
                 <li>Maps</li>
                 <li>email</li>
             </ul>
         </div>
 
-    
-        <div>
-            <h4></h4>
+        <div class="descrip">
             <form>
-                <label for="message">Message :</label> <textarea rows="5" cols="50" name="message" id="message" placeholder="Taper votre message" required></textarea>
-                    <button type="submit">Envoyer</button>
+                <p><label for="email">Email :</label> <input type="email" name="email" id="email"
+                        placeholder="Taper votre eamil" required>
+
+                <p><label for="message">Message :</label> <textarea rows="5" cols="50" name="message" id="message"
+                        placeholder="Taper votre message" required></textarea>
+                <p><button type="submit">Envoyer</button>
             </form>
         </div>
 
     </footer>
-    
+
     
 </body>
 </html>
